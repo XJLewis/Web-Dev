@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Cursive;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+header {
+    color: rgb(81, 206, 23);
+    text-align: center;
+}
+
+main {
+    padding: 5%;
+    background-color: rgb(5, 131, 120);
+}
+
+.about-from, .games, .news, .about, .contact {
+    background-color: #b1a78c;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow */
+}
+
+.contact{
+    background-color: #523c01;
+    color:#dba614;
+    table{
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+        color: darksalmon;
+    }
+    td {
+        border:dashed;
+    }
+    
+    th {
+        width:150px;
+    }
+}
+
+.banner {
+    background-image: url('er_banner.jpg');
+    background-position:center;
+    background-color: rgba(14, 26, 0, 0.5); /* subtle overlay */
+    background-blend-mode:saturation;
+}
+
+.games {
+    background-color: #d86a6a;
+}
+
+.about-from{
+    background-color: rgb(53, 48, 2);
+    color: rgb(22, 189, 22);
+}
+
+.news {
+    background-image: url('news_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5); /* subtle overlay */
+    background-blend-mode:overlay;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: rgb(58, 189, 7);
+}
